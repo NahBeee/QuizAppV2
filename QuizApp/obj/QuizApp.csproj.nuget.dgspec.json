@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nahbe\\Desktop\\QuizApp\\QuizApp\\QuizApp.csproj": {}
+    "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\QuizApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nahbe\\Desktop\\QuizApp\\QuizApp\\QuizApp.csproj": {
+    "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\QuizApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nahbe\\Desktop\\QuizApp\\QuizApp\\QuizApp.csproj",
+        "projectUniqueName": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\QuizApp.csproj",
         "projectName": "QuizApp",
-        "projectPath": "C:\\Users\\nahbe\\Desktop\\QuizApp\\QuizApp\\QuizApp.csproj",
+        "projectPath": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\QuizApp.csproj",
         "packagesPath": "C:\\Users\\nahbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nahbe\\Desktop\\QuizApp\\QuizApp\\obj\\",
+        "outputPath": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
