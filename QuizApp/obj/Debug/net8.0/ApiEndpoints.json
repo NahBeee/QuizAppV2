@@ -109,9 +109,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "QuizApp.Controllers.UsersController",
+    "ContainingType": "QuizApp.Controllers.UserController",
     "Method": "GetUsers",
-    "RelativePath": "api/Users",
+    "RelativePath": "api/User",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -129,9 +129,9 @@
     ]
   },
   {
-    "ContainingType": "QuizApp.Controllers.UsersController",
+    "ContainingType": "QuizApp.Controllers.UserController",
     "Method": "PostUser",
-    "RelativePath": "api/Users",
+    "RelativePath": "api/User",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -155,9 +155,9 @@
     ]
   },
   {
-    "ContainingType": "QuizApp.Controllers.UsersController",
+    "ContainingType": "QuizApp.Controllers.UserController",
     "Method": "GetUser",
-    "RelativePath": "api/Users/{id}",
+    "RelativePath": "api/User/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -181,9 +181,9 @@
     ]
   },
   {
-    "ContainingType": "QuizApp.Controllers.UsersController",
+    "ContainingType": "QuizApp.Controllers.UserController",
     "Method": "PutUser",
-    "RelativePath": "api/Users/{id}",
+    "RelativePath": "api/User/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -202,9 +202,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "QuizApp.Controllers.UsersController",
+    "ContainingType": "QuizApp.Controllers.UserController",
     "Method": "DeleteUser",
-    "RelativePath": "api/Users/{id}",
+    "RelativePath": "api/User/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

@@ -2,6 +2,7 @@ import { Box, Button, Card, CardContent, TextField, Typography } from "@mui/mate
 import React, { useState } from "react";
 import Center from "./Center";
 import useForm from "../customhooks/useForm";
+import { ENDPOINTS, createAPIEndpoint } from "../api";
 
 const getFreshModel= () =>({
     name:'',
@@ -22,7 +23,10 @@ export default function Login() {
     const login = e =>{
         e.preventDefault();
         if (validate()) {
-            console.log(values);
+            createAPIEndpoint(ENDPOINTS.user)
+                .post(values)
+                .then(res => console.log(res))
+                .catch(errors => console.log(errors))
         }
     }
 

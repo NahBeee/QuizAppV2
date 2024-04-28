@@ -11,23 +11,23 @@ namespace QuizApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class UserController : ControllerBase
     {
         private readonly QuizDbContext _context;
 
-        public UsersController(QuizDbContext context)
+        public UserController(QuizDbContext context)
         {
             _context = context;
         }
 
-        // GET: api/Users
+        // GET: api/User
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
             return await _context.Users.ToListAsync();
         }
 
-        // GET: api/Users/5
+        // GET: api/User/5
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser(int id)
         {
@@ -41,7 +41,7 @@ namespace QuizApp.Controllers
             return user;
         }
 
-        // PUT: api/Users/5
+        // PUT: api/User/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUser(int id, User user)
@@ -72,14 +72,14 @@ namespace QuizApp.Controllers
             return NoContent();
         }
 
-        // POST: api/Users
+        // POST: api/User
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
             var temp = _context.Users.Where(x => x.Name == user.Name && x.Email == user.Email).FirstOrDefault();
 
-            if (temp != null) 
+            if (temp != null)
             {
                 _context.Users.Add(user);
                 await _context.SaveChangesAsync();
@@ -88,12 +88,12 @@ namespace QuizApp.Controllers
             {
                 user = temp;
             }
-            
+
 
             return Ok(user);
         }
 
-        // DELETE: api/Users/5
+        // DELETE: api/User/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
