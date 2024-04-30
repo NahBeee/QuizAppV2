@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|c:\\users\\nahbe\\desktop\\quizappv2\\quizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|solutionrelative:quizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|c:\\users\\nahbe\\desktop\\quizappv2\\quizapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|solutionrelative:quizapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|c:\\users\\nahbe\\desktop\\quizappv2\\quizapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|solutionrelative:quizapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|c:\\users\\nahbe\\desktop\\quizappv2\\quizapp\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|solutionrelative:quizapp\\controllers\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|c:\\users\\nahbe\\desktop\\quizappv2\\quizapp\\models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|solutionrelative:quizapp\\models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|c:\\users\\nahbe\\desktop\\quizappv2\\quizapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|solutionrelative:quizapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|c:\\users\\nahbe\\desktop\\quizappv2\\quizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|solutionrelative:quizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|c:\\users\\nahbe\\desktop\\quizappv2\\quizapp\\models\\quizdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|solutionrelative:quizapp\\models\\quizdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|c:\\users\\nahbe\\desktop\\quizappv2\\quizapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|solutionrelative:quizapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|c:\\users\\nahbe\\desktop\\quizappv2\\quizapp\\models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DB6BE58-E102-43D4-8421-3C126DDACD42}|QuizApp\\QuizApp.csproj|solutionrelative:quizapp\\models\\questions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,20 +50,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "QuizDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Models\\QuizDbContext.cs",
+              "RelativeDocumentMoniker": "QuizApp\\Models\\QuizDbContext.cs",
+              "ToolTip": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Models\\QuizDbContext.cs",
+              "RelativeToolTip": "QuizApp\\Models\\QuizDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T13:00:40.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\appsettings.json",
+              "RelativeDocumentMoniker": "QuizApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\appsettings.json",
+              "RelativeToolTip": "QuizApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T13:02:19.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "QuizApp\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Controllers\\UserController.cs",
               "RelativeToolTip": "QuizApp\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAcwFgAAAAcAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAIwFUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T05:43:12.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "QuestionsController.cs",
               "DocumentMoniker": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Controllers\\QuestionsController.cs",
               "RelativeDocumentMoniker": "QuizApp\\Controllers\\QuestionsController.cs",
@@ -67,32 +97,21 @@
               "RelativeToolTip": "QuizApp\\Controllers\\QuestionsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T09:22:20.396Z"
+              "WhenOpened": "2024-04-27T09:22:20.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Program.cs",
               "RelativeDocumentMoniker": "QuizApp\\Program.cs",
               "ToolTip": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Program.cs",
               "RelativeToolTip": "QuizApp\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAABoAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T08:55:25.144Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QuizDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Models\\QuizDbContext.cs",
-              "RelativeDocumentMoniker": "QuizApp\\Models\\QuizDbContext.cs",
-              "ToolTip": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Models\\QuizDbContext.cs",
-              "RelativeToolTip": "QuizApp\\Models\\QuizDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T08:29:28.729Z"
             },
             {
               "$type": "Document",
@@ -102,19 +121,20 @@
               "RelativeDocumentMoniker": "QuizApp\\Models\\User.cs",
               "ToolTip": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Models\\User.cs",
               "RelativeToolTip": "QuizApp\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T08:27:50.242Z"
+              "WhenOpened": "2024-04-27T08:27:50.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Questions.cs",
               "DocumentMoniker": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Models\\Questions.cs",
               "RelativeDocumentMoniker": "QuizApp\\Models\\Questions.cs",
               "ToolTip": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Models\\Questions.cs",
               "RelativeToolTip": "QuizApp\\Models\\Questions.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAmwAsAAAAeAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwAsAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T08:21:39.293Z"
             }

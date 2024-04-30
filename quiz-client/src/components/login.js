@@ -20,14 +20,15 @@ export default function Login() {
         handleInputChange
     } = useForm(getFreshModel);
 
-    const login = e =>{
+    const login = e => {
         e.preventDefault();
-        if (validate()) {
+        if (validate())
             createAPIEndpoint(ENDPOINTS.user)
                 .post(values)
-                .then(res => console.log(res))
-                .catch(errors => console.log(errors))
-        }
+                .then(res => {
+                    console.log(res)
+                })
+                .catch(err => console.log(err))
     }
 
     const validate = () => {

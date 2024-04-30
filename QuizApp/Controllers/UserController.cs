@@ -79,7 +79,7 @@ namespace QuizApp.Controllers
         {
             var temp = _context.Users.Where(x => x.Name == user.Name && x.Email == user.Email).FirstOrDefault();
 
-            if (temp != null)
+            if (temp == null)
             {
                 _context.Users.Add(user);
                 await _context.SaveChangesAsync();
@@ -88,7 +88,6 @@ namespace QuizApp.Controllers
             {
                 user = temp;
             }
-
 
             return Ok(user);
         }
