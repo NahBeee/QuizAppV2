@@ -58,8 +58,7 @@
               "RelativeToolTip": "QuizApp\\Models\\QuizDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T13:00:40.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T13:00:40.574Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "QuizApp\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-30T13:02:19.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T13:02:19.692Z"
             },
             {
               "$type": "Document",
@@ -82,7 +80,7 @@
               "RelativeDocumentMoniker": "QuizApp\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\nahbe\\Desktop\\QuizAppV2\\QuizApp\\Controllers\\UserController.cs",
               "RelativeToolTip": "QuizApp\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAIwFUAAAANAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAIwFAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T05:43:12.386Z",
               "EditorCaption": ""
@@ -97,8 +95,7 @@
               "RelativeToolTip": "QuizApp\\Controllers\\QuestionsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T09:22:20.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T09:22:20.396Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "QuizApp\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T08:55:25.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T08:55:25.144Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "QuizApp\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T08:27:50.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T08:27:50.242Z"
             },
             {
               "$type": "Document",
