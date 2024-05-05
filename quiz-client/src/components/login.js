@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Center from "./Center";
 import useForm from "../customhooks/useForm";
 import { ENDPOINTS, createAPIEndpoint } from "../api";
+import useStateContext from "../customhooks/useStateContext";
+import { useNavigate } from "react-router-dom";
 
 const getFreshModel= () =>({
     name:'',
@@ -12,6 +14,7 @@ const getFreshModel= () =>({
 
 export default function Login() {
 
+    const {context, setContext} = useStateContext();
     const {
         values,
         setValues,
@@ -19,6 +22,7 @@ export default function Login() {
         setErrors,
         handleInputChange
     } = useForm(getFreshModel);
+    const navigate = useNavigate();
 
     const login = e => {
         e.preventDefault();
@@ -26,7 +30,8 @@ export default function Login() {
             createAPIEndpoint(ENDPOINTS.user)
                 .post(values)
                 .then(res => {
-                    console.log(res)
+                    setContext({userId: res.data.userId})
+                    navigate('/quiz')
                 })
                 .catch(err => console.log(err))
     }
