@@ -21,32 +21,6 @@
   },
   {
     "ContainingType": "QuizApp.Controllers.QuestionsController",
-    "Method": "PostQuestions",
-    "RelativePath": "api/Questions",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "questions",
-        "Type": "QuizApp.Models.Questions",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "QuizApp.Models.Questions",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "QuizApp.Controllers.QuestionsController",
     "Method": "GetQuestions",
     "RelativePath": "api/Questions/{id}",
     "HttpMethod": "GET",
@@ -107,6 +81,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QuizApp.Controllers.QuestionsController",
+    "Method": "ReceivedAns",
+    "RelativePath": "api/Questions/GetAnswers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionIds",
+        "Type": "System.Int32[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "QuizApp.Models.Questions",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "QuizApp.Controllers.UserController",

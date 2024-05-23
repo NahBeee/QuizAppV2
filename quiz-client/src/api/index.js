@@ -4,7 +4,8 @@ export const BASE_URL= 'https://localhost:7223/';
 
 export const ENDPOINTS = {
     user:'user',
-    question:'Questions'
+    question:'Questions',
+    getAnswers:'Questions/GetAnswers'
 }
 
 export const createAPIEndpoint = endpoint => {
