@@ -35,11 +35,10 @@ export default function Quiz() {
     return ()=>{clearInterval(timer)}
   },[])
 
-  const updateAnswer = (qnId, optionIndex) =>{
+  const updateAnswer = (questionID, optionIndex) =>{
     const temp = [...context.selectedOptions]
-    console.log(temp)
     temp.push({
-      questionId: qnId,
+      questionID,
       selected:optionIndex
     })
 
@@ -71,7 +70,7 @@ export default function Quiz() {
           </Typography>
           <List>
             {questions[questionIndex].options.map((item,index)=>
-              <ListItemButton disableRipple key={index} onClick={() => updateAnswer(questions[questionIndex].questionId, index)}>
+              <ListItemButton disableRipple key={index} onClick={() => updateAnswer(questions[questionIndex].questionID, index)}>
                 <div>{String.fromCharCode(65 +index)+ " . "}  {item}</div>
               </ListItemButton>
             )}
