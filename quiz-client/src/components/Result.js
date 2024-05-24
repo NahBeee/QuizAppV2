@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import useStateContext from '../customhooks/useStateContext'
 import { ENDPOINTS, createAPIEndpoint } from '../api'
-import { Box, Card, CardContent, CardMedia, Typography, Button } from '@mui/material';
+import { Box, Card, CardContent, CardMedia, Typography, Button, Alert } from '@mui/material';
 import { getFormatedTime } from '../helper';
 import { useNavigate } from 'react-router-dom';
+import { green } from '@mui/material/colors';
+import Answer from './Answer';
 
 export default function Result() {
   const {context, setContext} = useStateContext()
   const [score, setScore] = useState(0);
   const [qnAns, setQnAns] = useState([]);
+  const [showAlert, setShowAlert] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -37,8 +40,30 @@ export default function Result() {
     setScore(tempScore)
   }
 
+  const restart = () => {
+    setContext({
+      timeTaken:0,
+      selectedOptions: []
+    })
+    navigate("/quiz")
+  }
+
+  const submitScore = () => {
+    createAPIEndpoint(ENDPOINTS.user)
+    .put(context.userId,{
+      userId: context.userId,
+      score:score,
+      timeTaken: context.timeTaken
+    })
+    .then(res => 
+      setShowAlert(true),
+      setTimeout(()=>{setShowAlert(false)},4000)
+    )
+    .catch(err => console.log(err))
+  }
 
   return (
+    <>
     <Card sx ={{mt:5, display:'flex', width:'100%', maxWidth:640, mx:'auto'}}>
       <Box sx={{ display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
         <CardContent sx={{ flex: '1 0 auto', textAlign: 'center' }}>
@@ -47,7 +72,7 @@ export default function Result() {
               YOUR SCORE
             </Typography>
             <Typography variant="h5" sx={{ fontWeight: 600 }}>
-              <Typography variant="span" >
+              <Typography variant="span" color={green[500]}>
                 {score}
               </Typography>/5
             </Typography>
@@ -64,8 +89,18 @@ export default function Result() {
               sx={{ mx: 1 }}
               size="small"
               onClick={restart}>
-              Re-try
+              Redo the quiz
             </Button>
+            <Alert
+              severity="success"
+              variant="string"
+              sx={{
+                width: '60%',
+                m: 'auto',
+                visibility: showAlert ? 'visible' : 'hidden'
+              }}>
+              Score Updated.
+            </Alert>
         </CardContent>
       </Box>
       <CardMedia
@@ -74,5 +109,7 @@ export default function Result() {
           image="./result.png"
         />
     </Card>
+    <Answer qnAns ={qnAns} />
+    </>
   )
 }

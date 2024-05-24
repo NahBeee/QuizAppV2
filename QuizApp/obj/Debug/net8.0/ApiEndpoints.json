@@ -194,8 +194,8 @@
         "IsRequired": true
       },
       {
-        "Name": "user",
-        "Type": "QuizApp.Models.User",
+        "Name": "_userResult",
+        "Type": "QuizApp.Models.UserResult",
         "IsRequired": true
       }
     ],

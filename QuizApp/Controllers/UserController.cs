@@ -44,13 +44,16 @@ namespace QuizApp.Controllers
         // PUT: api/User/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(int id, User user)
+        public async Task<IActionResult> PutUser(int id, UserResult _userResult)
         {
-            if (id != user.UserId)
+            if (id != _userResult.UserId)
             {
                 return BadRequest();
             }
-
+            // get all current information of the record, then update with quiz result
+            User user = _context.Users.Find(id);
+            user.Score = _userResult.Score;
+            user.TimeTaken = _userResult.TimeTaken; 
             _context.Entry(user).State = EntityState.Modified;
 
             try

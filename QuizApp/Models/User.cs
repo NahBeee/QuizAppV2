@@ -14,4 +14,11 @@ namespace QuizApp.Models
         public int Score { get; set; }
         public int TimeTaken { get; set; }
     }
+
+    public class UserResult
+    {
+        public int UserId { get; set; }
+        public int Score { get; set; }
+        public int TimeTaken { get; set; }
+    }
 }

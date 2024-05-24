@@ -5,7 +5,7 @@ export const stateContext = createContext();
 const getFreshContext = () => {
   if(localStorage.getItem('context') === null ){
     localStorage.setItem('context', JSON.stringify({
-      user:0,
+      userId:0,
       timeTaken:0,
       selectedOptions: []
   }))
